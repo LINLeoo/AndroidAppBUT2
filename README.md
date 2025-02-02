@@ -1,2 +1,2 @@
 # AndroidAppBUT2
-AndroidAppBUT2
+Application Android BUT2
