@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="prefixes_array">
+        <item>+1</item>
+        <item>+33</item>
+        <item>+44</item>
+        <item>+49</item>
+        <item>+39</item>
+        <item>+34</item>
+        <item>+61</item>
+    </string-array>
+
+</resources>
