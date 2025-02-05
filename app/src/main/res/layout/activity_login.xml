@@ -15,7 +15,7 @@
         android:gravity="center_vertical"
         android:drawableLeft="@drawable/baseline_arrow_back_24"
         android:drawablePadding="10dp"
-        android:text="Connectez-vous"
+        android:text="@string/connectez_vous"
         android:textColor="@color/white"
         android:textSize="22dp"/>
 
@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="10dp"
-                android:text="Identifiez vous"
+                android:text="@string/identifiez_vous"
                 android:textSize="15dp"/>
 
             <LinearLayout
@@ -57,7 +57,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="E-mail"/>
+                    android:hint="@string/email"/>
             </LinearLayout>
 
             <LinearLayout
@@ -75,7 +75,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Mot de passe"/>
+                    android:hint="@string/mot_de_passe"/>
             </LinearLayout>
 
             <Button
@@ -84,7 +84,8 @@
                 android:layout_gravity="end"
                 android:background="@android:color/transparent"
                 android:padding="0dp"
-                android:text="MOT DE PASSE OUBLIÉ ?"
+                android:text="@string/mot_de_passe_oublie"
+                android:textAllCaps="true"
                 android:textColor="@android:color/holo_blue_dark" />
 
             <Button
@@ -93,7 +94,8 @@
                 android:layout_marginTop="20dp"
                 app:cornerRadius="0dp"
                 android:backgroundTint="@android:color/holo_orange_light"
-                android:text="Connectez Vous"/>
+                android:text="@string/connectez_vous"
+                android:textAllCaps="true"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -106,16 +108,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Nouveau sur Jumia ?"/>
+                    android:text="@string/nouveau_sur_jumia"/>
 
-                <TextView
-                    android:id="@+id/textCreateAccount"
+
+
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
+                    android:padding="0dp"
                     android:gravity="center"
+                    android:background="@android:color/transparent"
                     android:textColor="@android:color/holo_blue_dark"
-                    android:text="CRÉEZ UN COMPTE" />
+                    android:text="@string/creer_compte"
+                    android:textAllCaps="true"/>
             </LinearLayout>
 
             <LinearLayout
@@ -124,6 +130,7 @@
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
                 <View
+                    android:layout_marginEnd="15dp"
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="1"
@@ -132,8 +139,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="  OU  "/>
+                    android:textAllCaps="true"
+                    android:text="@string/ou"/>
                 <View
+                    android:layout_marginStart="15dp"
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="1"
@@ -161,7 +170,7 @@
                     android:layout_gravity="start"
                     android:background="@android:color/transparent"
                     android:padding="0dp"
-                    android:text="Continuer avec Facebook"
+                    android:text="@string/connexion_facebook"
                     android:textColor="@android:color/holo_blue_dark" />
 
             </LinearLayout>

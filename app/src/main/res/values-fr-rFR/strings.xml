@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="connectez_vous">Connectez-Vous</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="mot_de_passe_oublie">Mot de passe oublié ?</string>
+    <string name="nouveau_sur_jumia">Nouveau sur Jumia ?</string>
+    <string name="creer_compte">Créez un compte</string>
+    <string name="identifiez_vous">Connectez-vous</string>
+    <string name="email">E-mail</string>
+    <string name="ou">Ou</string>
+    <string name="connexion_facebook">Continuer avec Facebook</string>
+</resources>

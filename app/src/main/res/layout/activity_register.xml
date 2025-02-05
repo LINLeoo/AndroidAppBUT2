@@ -127,15 +127,20 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="30dp">
 
-                    <Spinner
-                        android:id="@+id/spinnerPrefixe"
+                    <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:entries="@array/prefixes_array"/>
+                        android:src="@drawable/baseline_phone_30"
+                        android:layout_gravity="center_vertical"/>
+
+                    <Spinner
+                        android:id="@+id/spinner_country_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"/>
 
                     <EditText
-                        android:layout_width="215dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
                         android:hint="Tel"
@@ -144,8 +149,7 @@
 
                 <View
                     android:layout_width="wrap_content"
-                    android:layout_height="300dp"
-                    />
+                    android:layout_height="300dp" />
 
                 <Button
                     android:id="@+id/buttonLogin"
