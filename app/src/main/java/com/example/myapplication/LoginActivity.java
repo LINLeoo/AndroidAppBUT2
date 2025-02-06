@@ -28,6 +28,6 @@ public class LoginActivity extends AppCompatActivity {
     }
     private void openRegister(){
         Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-        startActivity(intent);
+        startActivity(intent)
     }
 }
