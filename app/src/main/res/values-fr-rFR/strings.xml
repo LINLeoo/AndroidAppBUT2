@@ -10,4 +10,7 @@
     <string name="email">E-mail</string>
     <string name="ou">Ou</string>
     <string name="connexion_facebook">Continuer avec Facebook</string>
+    <string name="prenom">Prenom</string>
+    <string name="nom">Nom</string>
+    <string name="mobile">Mobile</string>
 </resources>
