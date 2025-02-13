@@ -36,6 +36,10 @@ public class LoginActivity extends BaseActivity {
         Button btnRegister = findViewById(R.id.btnCreateAccount);
         btnRegister.setOnClickListener(v -> openRegister());
 
+        Button btnHabitat = findViewById(R.id.btnHabitat);
+        btnHabitat.setOnClickListener(v -> openHabitat());
+
+
         EditText editEmail = findViewById(R.id.editEmail);
         EditText editPassword = findViewById(R.id.editPassword);
         Button btnLogin = findViewById(R.id.btnLogin);
@@ -55,6 +59,11 @@ public class LoginActivity extends BaseActivity {
     }
     private void openRegister(){
         Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+        startActivity(intent);
+    }
+
+    private void openHabitat(){
+        Intent intent = new Intent(LoginActivity.this, HabitatActivity.class);
         startActivity(intent);
     }
 

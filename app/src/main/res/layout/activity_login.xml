@@ -197,6 +197,12 @@
                     android:textColor="@android:color/holo_blue_dark" />
 
             </LinearLayout>
+
+            <Button
+                android:id="@+id/btnHabitat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HABITAT"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
