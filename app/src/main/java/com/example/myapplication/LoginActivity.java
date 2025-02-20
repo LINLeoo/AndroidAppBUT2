@@ -34,10 +34,16 @@ public class LoginActivity extends BaseActivity {
         setupBackButton();
 
         Button btnRegister = findViewById(R.id.btnCreateAccount);
-        btnRegister.setOnClickListener(v -> openRegister());
+        btnRegister.setOnClickListener(v -> {
+            Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+            startActivity(intent);
+        });
 
         Button btnHabitat = findViewById(R.id.btnHabitat);
-        btnHabitat.setOnClickListener(v -> openHabitat());
+        btnHabitat.setOnClickListener(v -> {
+            Intent intent = new Intent(LoginActivity.this, HabitatActivity.class);
+            startActivity(intent);
+        });
 
 
         EditText editEmail = findViewById(R.id.editEmail);
@@ -57,14 +63,4 @@ public class LoginActivity extends BaseActivity {
 
         });
     }
-    private void openRegister(){
-        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-        startActivity(intent);
-    }
-
-    private void openHabitat(){
-        Intent intent = new Intent(LoginActivity.this, HabitatActivity.class);
-        startActivity(intent);
-    }
-
 }

@@ -7,6 +7,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import java.util.ArrayList;
 
@@ -42,5 +44,9 @@ public class HabitatActivity extends BaseActivity {
                 Toast.makeText(HabitatActivity.this, "Nom du résident: " + nomResident, Toast.LENGTH_SHORT).show();
             }
         });
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, new MyFragment())
+                .commit();
     }
 }
